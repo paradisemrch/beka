@@ -253,6 +253,7 @@
 
       <rect id="bg" width="750" height="500" opacity="0.2" fill="#2c3e50" />
 
+
       <g id="clouds" fill="#fefefe">
         <path
           id="cloud4"
@@ -350,7 +351,6 @@
           transform="translate(750 492.8) rotate(180)"
           fill="url(#bg2-grad)"
         />
-
         <g id="fstar">
           <image
             width="707"
@@ -874,11 +874,14 @@ svg {
 }
 
 .scrollElement {
-  position: absolute;
+  position: relative;
   height: 6000px;
   width: 100px;
   top: 0;
   z-index: 0;
+}
+.hello{
+    position: relative;
 }
 
 .btn {

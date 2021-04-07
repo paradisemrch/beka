@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="TarotKaka" />
+  <MainView msg="TarotKaka" />
+ <Expense/>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MainView from "./components/MainView.vue";
+import Expense from "./components/Expense.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    MainView,
+    Expense
   },
 };
 </script>

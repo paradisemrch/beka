@@ -1,15 +1,12 @@
+//deploy.sh
 #!/usr/bin/env sh
-
-# 当发生错误时中止脚本
+# 當發生錯誤時終止腳本運行
 set -e
-
-# 构建
+# 打包
 npm run build
-
-# cd 到构建输出的目录下 
+# 移動至到打包後的dist目錄 
 cd dist
-
-git init
+git init //因為dist資料夾預設是被ignore的，因此在進入dist資料夾後初始化git
 git add -A
 git commit -m 'deploy'
 
