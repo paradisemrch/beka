@@ -19,7 +19,7 @@
                 <p>B. 有選項的問題： 算你淺意識對此問題的的想法，選項A現在及3-6個月發展，選項B現在及3-6個月發展。</p>
               </div>
               <br />
-              <a class="main-link" href="https://www.instagram.com/pj.w_"><div class="btn">馬上預約</div> </a>
+              <a class="main-link" href="https://www.instagram.com/soniikaka"><div class="btn">馬上預約</div> </a>
             </div>
           </div>
         </div>
