@@ -1,31 +1,40 @@
 <template>
- <section><div class="des"><h2>塔羅卡卡的世界</h2><p>目前以問題數計費線上諮詢$200/現場$350（一個問題約30分鐘）<br/>
-算完若ig/fb分享tag我，可折50元🔮
-目前開放兩種算法以工作例子給您參考
-<ul><li>1. 3-6個月工作運勢：
-算您對工作的淺意識 
-對工作的過去、現在、未來3-6個月發展</li><li>
-2. 有選項 - 離職或不離職：
-算你的淺意識對工作的看法，
-選離職及3-6個月發展
-選不離職3-6個月發展。</li></ul>
-我的算法是給方向建議給您參考
-選擇權還是在您唷！畢竟命運還是掌握在自己身上的✨</p></div><br/><br/><br/><br/></section>
+  <section>
+    <div class="container">
+      <div class="overlay">
+        <div class="card">
+          <div class="desc-box">
+            <div class="desc">
+              <h2>塔羅收費方式</h2>
+              <div class="content">
+                <p>目前以問題數計費</p>
+                <p>A. 線上諮詢：$200 (30分鐘)。</p>
+                <p>B. 現場諮詢：$350 (30分鐘)。</p>
+                <p>兩種專案，若超過 30 分鐘每 10 分鐘需加價 $100。</p>
+                <p>優惠活動：IG / FB 分享Tag我，可折 $50。</p>
+              </div>
+              <h2>塔羅牌陣解說</h2>
+              <div class="content">
+                <p>A. 3-6個月運勢： 算您淺意識對此問題的想法，算此問題的過去、現在、未來3-6個月發展。</p>
+                <p>B. 有選項的問題： 算你淺意識對此問題的的想法，選項A現在及3-6個月發展，選項B現在及3-6個月發展。</p>
+              </div>
+              <br />
+              <a class="main-link" href="https://www.instagram.com/pj.w_"><div class="btn">馬上預約</div> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-
-
-
 export default {
-  name: "Expense",
+  name: 'Expense',
   props: {
     msg: String,
   },
- 
-};
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

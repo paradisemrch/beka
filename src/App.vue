@@ -1,21 +1,18 @@
 <template>
   <MainView msg="TarotKaka" />
- <Expense/>
 </template>
 
 <script>
-import MainView from "./components/MainView.vue";
-import Expense from "./components/Expense.vue";
+import MainView from './components/MainView.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     MainView,
-    Expense
   },
-};
+}
 </script>
 
 <style>
-@import "./assets/scss/main.scss";
+@import './assets/scss/main.scss';
 </style>
