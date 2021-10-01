@@ -254,12 +254,6 @@
           fill="url(#bg2-grad)"
         />
         <g id="fstar">
-          <image
-            width="707"
-            height="429"
-            transform="translate(728.46 16.5) scale(0.24)"
-            xlink:href="https://res.cloudinary.com/dtvy1jqj0/image/upload/v1593347771/misc/fstar.png"
-          />
           <circle
             cx="768.6"
             cy="78.72"
