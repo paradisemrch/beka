@@ -8,7 +8,7 @@
               <h2>塔羅收費方式</h2>
               <div class="content">
                 <p>費用以問題數計費</p>
-                <p>A. 線上諮詢：$350 (15分鐘)。</p>
+                <p>A. 線上諮詢：$300 (15分鐘)。</p>
                 <p>B. 現場諮詢：$450 (20分鐘)。</p>
                 <p>兩種專案，若超過時間每 10 分鐘需加價 $100。</p>
                 <p>優惠活動：IG / FB 分享Tag我 + 追蹤 IG ，可折 $50。</p>
@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: 'Expense',
+  name: 'Card',
   props: {
     msg: String,
   },

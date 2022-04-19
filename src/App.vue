@@ -1,5 +1,5 @@
 <template>
-  <MainView msg="TarotKaka" />
+  <MainView msg="TarotKaka(費用請往下滑)" />
 </template>
 
 <script>
