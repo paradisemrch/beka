@@ -1,10 +1,8 @@
 <template>
   <div class="hello">
     <div class="img">
-      <h1>
-        {{ msg }}
-      </h1>
-
+      <h1>{{ msg }}</h1>
+      <span>- 費用請往下滑 -</span>
       <img width="500" height="500" alt="beka" src="../assets/noBg-kaka.png" />
     </div>
     <svg
